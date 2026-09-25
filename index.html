@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Avenida | Missal - PR</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: #f7f4ef;
+      color: #2c2523;
+    }
+    h1, h2, h3, .font-serif-title, .logo-title {
+      font-family: 'Cormorant Garamond', serif;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-[#8c5238] selection:text-white">
+
+  <!-- CABEÇALHO -->
+  <header class="sticky top-0 z-50 bg-[#f7f4ef]/90 backdrop-blur-md border-b border-[#e5ded4]">
+    <div class="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
+      <a href="#" class="logo-title text-2xl sm:text-3xl font-semibold tracking-wider text-[#2c2523] uppercase">
+        Hotel Avenida
+      </a>
+      <nav class="hidden md:flex space-x-10 text-xs font-medium uppercase tracking-widest text-[#5c524e]">
+        <a href="#sobre" class="hover:text-[#8c5238] transition">O Hotel</a>
+        <a href="#comodidades" class="hover:text-[#8c5238] transition">Comodidades</a>
+        <a href="#cafe" class="hover:text-[#8c5238] transition">Café da Manhã</a>
+        <a href="#contato" class="hover:text-[#8c5238] transition">Contato</a>
+      </nav>
+      <a href="https://wa.me/5545988247101?text=Ol%C3%A1!%20Gostaria%20de%20consultar%20a%20disponibilidade%20de%20quartos" target="_blank" class="bg-[#8c5238] hover:bg-[#72402a] text-white text-xs uppercase tracking-widest px-6 py-3 rounded-full transition shadow-sm">
+        Reservar
+      </a>
+    </div>
+  </header>
+
+  <!-- SEÇÃO HERO (CAPA) -->
+  <section class="relative min-h-[85vh] flex items-center justify-center bg-cover bg-center text-white px-6 py-20" style="background-image: linear-gradient(rgba(20, 16, 15, 0.55), rgba(20, 16, 15, 0.65)), url('fachada.jpg');">
+    <div class="max-w-3xl mx-auto text-center">
+      <span class="text-xs uppercase tracking-[0.3em] text-[#e5ded4] mb-4 block font-light">
+        Missal — Paraná
+      </span>
+      <h1 class="text-4xl sm:text-6xl md:text-7xl font-normal leading-tight mb-8 tracking-tight font-serif-title">
+        Espaços que traduzem conforto, acolhimento e tranquilidade.
+      </h1>
+      <p class="text-sm sm:text-base text-[#e5ded4] max-w-xl mx-auto mb-10 font-light leading-relaxed">
+        Sua melhor opção de hospedagem no centro de Missal. Comodidades completas com café da manhã incluso, estacionamento privativo e Wi-Fi gratuito.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/5545988247101?text=Ol%C3%A1!%20Gostaria%20de%20fazer%20uma%20reserva" target="_blank" class="w-full sm:w-auto bg-[#f7f4ef] text-[#2c2523] hover:bg-[#e5ded4] font-medium text-xs uppercase tracking-widest px-8 py-4 rounded-full transition">
+          Consultar Disponibilidade
+        </a>
+        <a href="#sobre" class="w-full sm:w-auto border border-white/40 hover:bg-white/10 text-white font-medium text-xs uppercase tracking-widest px-8 py-4 rounded-full transition">
+          Conhecer o Hotel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO SOBRE -->
+  <section id="sobre" class="py-24 px-6 max-w-5xl mx-auto">
+    <div class="max-w-2xl">
+      <span class="text-xs uppercase tracking-[0.25em] text-[#8c5238] block mb-3 font-semibold">
+        Hospitalidade & Tradição
+      </span>
+      <h2 class="text-3xl sm:text-5xl font-normal text-[#2c2523] mb-6 leading-tight font-serif-title">
+        Projetamos uma estadia pensada para quem valoriza sossego e bem-estar.
+      </h2>
+      <p class="text-[#5c524e] text-base leading-relaxed font-light mb-8">
+        Localizado estrategicamente na Avenida Dom Geraldo Sigaud, o Hotel Avenida oferece o equilíbrio ideal entre ambiente familiar, praticidade e atendimento acolhedor. Seja a trabalho ou a passeio pelo circuito turístico do Lago Itaipu, garantimos seu descanso perfeito.
+      </p>
+    </div>
+  </section>
+
+  <!-- BANNER QUARTOS -->
+  <section class="relative min-h-[70vh] flex items-end bg-cover bg-center text-white p-8 sm:p-16 my-10" style="background-image: linear-gradient(to top, rgba(20, 16, 15, 0.85), rgba(20, 16, 15, 0.2)), url('quarto.jpg');">
+    <div class="max-w-2xl">
+      <span class="text-xs uppercase tracking-[0.25em] text-[#e5ded4] block mb-3 font-light">
+        Acomodações
+      </span>
+      <h3 class="text-3xl sm:text-5xl font-normal mb-4 font-serif-title">
+        Conforto e higiene em cada detalhe
+      </h3>
+      <p class="text-sm sm:text-base text-[#e5ded4] font-light leading-relaxed mb-6">
+        Quartos equipados com ar-condicionado, chuveiro aquecido, Wi-Fi gratuito e roupas de cama rigorosamente higienizadas para renovar suas energias.
+      </p>
+      <a href="https://wa.me/5545988247101?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20os%20quartos" target="_blank" class="inline-block border-b border-white pb-1 text-xs uppercase tracking-widest hover:text-[#e5ded4] transition">
+        Ver opções de quartos →
+      </a>
+    </div>
+  </section>
+
+  <!-- SEÇÃO COMODIDADES (BASEADA NA SUA IMAGEM) -->
+  <section id="comodidades" class="py-24 px-6 bg-[#efece6]">
+    <div class="max-w-5xl mx-auto">
+      <div class="mb-16">
+        <span class="text-xs uppercase tracking-[0.25em] text-[#8c5238] block mb-2 font-semibold">
+          Conveniência
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-normal text-[#2c2523] font-serif-title">
+          Comodidades do Hotel
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-[#f7f4ef] p-10 border border-[#e5ded4]">
+          <span class="text-xs text-[#8c5238] font-mono block mb-4">01</span>
+          <h3 class="text-2xl font-normal text-[#2c2523] mb-3 font-serif-title">Estacionamento Gratuito</h3>
+          <p class="text-sm text-[#5c524e] leading-relaxed font-light">
+            Estacionamento amplo e seguro no local sem qualquer custo adicional para carros, caminhonetes, vans e ônibus.
+          </p>
+        </div>
+
+        <div class="bg-[#f7f4ef] p-10 border border-[#e5ded4]">
+          <span class="text-xs text-[#8c5238] font-mono block mb-4">02</span>
+          <h3 class="text-2xl font-normal text-[#2c2523] mb-3 font-serif-title">Café da Manhã Incluso</h3>
+          <p class="text-sm text-[#5c524e] leading-relaxed font-light">
+            Buffet completo servido diariamente sem custo financeiro adicional na sua diária.
+          </p>
+        </div>
+
+        <div class="bg-[#f7f4ef] p-10 border border-[#e5ded4]">
+          <span class="text-xs text-[#8c5238] font-mono block mb-4">03</span>
+          <h3 class="text-2xl font-normal text-[#2c2523] mb-3 font-serif-title">Wi-Fi de Alta Velocidade</h3>
+          <p class="text-sm text-[#5c524e] leading-relaxed font-light">
+            Conexão sem fio gratuita disponível em todos os quartos e áreas comuns do hotel.
+          </p>
+        </div>
+
+        <div class="bg-[#f7f4ef] p-10 border border-[#e5ded4]">
+          <span class="text-xs text-[#8c5238] font-mono block mb-4">04</span>
+          <h3 class="text-2xl font-normal text-[#2c2523] mb-3 font-serif-title">Próximo ao Itaipuland</h3>
+          <p class="text-sm text-[#5c524e] leading-relaxed font-light">
+            A apenas 10 km do Parque Aquático Itaipuland, sendo a escolha ideal para o descanso do seu passeio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO CAFÉ DA MANHÃ -->
+  <section id="cafe" class="py-24 px-6 max-w-5xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div>
+        <span class="text-xs uppercase tracking-[0.25em] text-[#8c5238] block mb-3 font-semibold">
+          Sem Custo Adicional
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-normal text-[#2c2523] mb-6 font-serif-title">
+          Café da manhã artesanal e variado
+        </h2>
+        <p class="text-sm text-[#5c524e] font-light leading-relaxed mb-6">
+          Inicie o dia com um buffet variado preparado com carinho: pães frescos, bolos caseiros, frios, sucos, frutas e café quentinho, tudo incluso na sua hospedagem.
+        </p>
+        <ul class="space-y-2 text-xs uppercase tracking-wider text-[#2c2523] font-medium">
+          <li>✓ Pães e Bolos Selecionados</li>
+          <li>✓ Sucos, Frutas e Frios Variados</li>
+          <li>✓ Café Quentinho & Bebidas Quentes</li>
+        </ul>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div class="h-64 bg-cover bg-center rounded-sm border border-[#e5ded4]" style="background-image: url('cafe1.jpg');"></div>
+        <div class="h-64 bg-cover bg-center rounded-sm mt-6 border border-[#e5ded4]" style="background-image: url('cafe2.jpg');"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNER ESCURO DE CHAMADA PARA AÇÃO -->
+  <section class="bg-[#2c2523] text-[#f7f4ef] py-24 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <span class="text-xs uppercase tracking-[0.3em] text-[#8c5238] block mb-4">
+        Reserva Rápida & Descomplicada
+      </span>
+      <h2 class="text-3xl sm:text-5xl font-normal mb-6 font-serif-title leading-tight">
+        Garanta sua vaga no centro de Missal com atendimento imediato.
+      </h2>
+      <p class="text-sm sm:text-base text-[#d1c8be] font-light max-w-2xl mx-auto mb-10 leading-relaxed">
+        Entre em contato direto pelo WhatsApp para tirar dúvidas, verificar disponibilidade e garantir a melhor tarifa.
+      </p>
+      <a href="https://wa.me/5545988247101?text=Ol%C3%A1!%20Gostaria%20de%20reservar%20um%20quarto" target="_blank" class="inline-block bg-[#8c5238] hover:bg-[#72402a] text-white text-xs uppercase tracking-widest px-8 py-4 rounded-full transition">
+        Falar com a Recepção no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTATO E INFORMAÇÕES -->
+  <section id="contato" class="py-24 px-6 max-w-5xl mx-auto">
+    <div class="mb-16">
+      <span class="text-xs uppercase tracking-[0.25em] text-[#8c5238] block mb-2 font-semibold">
+        Informações
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-normal text-[#2c2523] font-serif-title">
+        Entre em contato
+      </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <div class="space-y-8 text-sm">
+        <div>
+          <span class="text-xs uppercase tracking-wider text-[#8c5238] block mb-1 font-semibold">Endereço</span>
+          <p class="text-[#5c524e] font-light leading-relaxed">
+            Av. Dom Geraldo Sigaud, 297 - Centro<br>
+            Missal - PR, CEP: 85890-000
+          </p>
+        </div>
+
+        <div>
+          <span class="text-xs uppercase tracking-wider text-[#8c5238] block mb-1 font-semibold">Telefones & WhatsApp</span>
+          <p class="text-[#5c524e] font-light leading-relaxed">
+            WhatsApp: (45) 98824-7101<br>
+            Fixo: (45) 3244-1345
+          </p>
+        </div>
+
+        <div>
+          <span class="text-xs uppercase tracking-wider text-[#8c5238] block mb-1 font-semibold">Horário de Atendimento</span>
+          <p class="text-[#5c524e] font-light leading-relaxed">
+            Recepção aberta diariamente para recepção e atendimento aos hóspedes.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-[#efece6] p-8 border border-[#e5ded4] flex flex-col justify-between">
+        <div>
+          <h3 class="text-2xl font-normal text-[#2c2523] mb-3 font-serif-title">Solicitar Orçamento / Disponibilidade</h3>
+          <p class="text-sm text-[#5c524e] font-light leading-relaxed mb-8">
+            Clique no botão abaixo para iniciar uma conversa direta via WhatsApp com nossa equipe de atendimento.
+          </p>
+        </div>
+        <a href="https://wa.me/5545988247101?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20reservar" target="_blank" class="w-full bg-[#8c5238] hover:bg-[#72402a] text-white text-xs uppercase tracking-widest text-center py-4 rounded-full transition block">
+          Falar pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="border-t border-[#e5ded4] py-10 px-6 text-center text-xs text-[#8c827a] font-light">
+    <p>© Hotel Avenida • Missal - Paraná</p>
+  </footer>
+
+</body>
+</html>
